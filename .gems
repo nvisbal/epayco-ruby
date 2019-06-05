@@ -1,3 +1,3 @@
-rest-client -v 2.0.1
+rest-client -v 1.8
 cutest -v 1.2.2
 mocha -v 1.1.0
