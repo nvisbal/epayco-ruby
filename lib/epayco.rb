@@ -91,7 +91,7 @@ module Epayco
 
   # Get response successful
   def self.execute_request(options)
-    OpenSSL::SSL::SSLContext::DEFAULT_PARAMS[:ciphers]=OpenSSL::SSL::SSLContext.new.ciphers;
+    # OpenSSL::SSL::SSLContext::DEFAULT_PARAMS[:ciphers]=OpenSSL::SSL::SSLContext.new.ciphers;
     RestClient::Request.execute(options)
   end
 
